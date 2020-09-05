@@ -1,0 +1,74 @@
+.task {
+    width: 100%;
+    text-align: left;
+    margin: 4px 0;
+    padding-left: 8px;
+    cursor: pointer;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    background-color: lightyellow;
+
+  }
+  
+  .task.completed {
+    text-decoration: line-through;
+  }
+
+.form-container{
+    display: flex;
+    flex-flow: row;
+}
+
+.App {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: -24px;
+}
+
+.header {
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: rgb(120, 154, 247);
+    padding: 16px 24px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+input {
+    border-color: rgb(214, 214, 214);
+    border-style: solid;
+    height: 32px;
+    width: 320px;
+    border-radius: 4px;
+}
+input:focus{
+    border-color: rgb(214, 214, 214);
+}
+
+.add-btn {
+    background-color: rgb(120, 154, 247);
+    border: none;
+    color: white;
+    border-radius: 4px;
+    height: 40px;
+    width: 32px;
+    margin-left: 4px;
+    margin-bottom: 16px;
+}
+
+.clear-btn {
+    background-color: rgb(120, 154, 247);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    width: 100%;
+    margin-top: 16px;
+}
